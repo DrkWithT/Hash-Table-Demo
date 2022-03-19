@@ -6,4 +6,4 @@
 Make an implementation of a string to integer hash table that supports resize with rehash, hash setting, hash retrieval.
 
 ### Implementation:
-Docs TODO.
+This lacks resizing and rehashing for now. I'll implement that later.
