@@ -15,7 +15,7 @@ size_t createHash(const char* str, size_t table_size)
 
     for(size_t iter = 0; iter < char_count; iter++)
     {
-		// summation term: ASCII(some char) * (19 ^ i)
+		// summation term: ASCII(char) * (19 ^ i)
         key_id += (int)str[iter] * hash_factor_pow;
 
         hash_factor_pow *= HASH_FACTOR;
